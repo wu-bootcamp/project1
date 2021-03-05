@@ -1,0 +1,49 @@
+/***************************************************
+Template: Touch of Class
+
+layout3.css
+Layout 3
+****************************************************/
+	
+#wb-layout-top-2 {
+	height: 40px;
+	background-color: #000000;
+}
+
+/*--- Top Navigation: wb-navigation-subtop ---*/	
+#wb-navigation-subtop {
+	display: block;
+	height:30px;
+}
+
+#wb-top-subbasenav {
+	display: none;
+}
+/*--- Content Container: wb-container-contentwrapper ---*/
+#wb-container-contentwrapper {
+	background-image: url('../images/layout3/content-top.gif');
+	background-repeat: no-repeat;
+	background-position: top center;
+	padding-top: 30px;
+	background-color: #cbecfd;	
+}
+
+/*--- Sidebar: wb-layout-sidebar ---*/
+#wb-layout-sidebar {
+	display: none;
+}
+		
+/*--- Main Content: wb-layout-main ---*/
+#wb-layout-main {
+	display: block;
+	width: 100%;
+	padding: 0px;
+}
+	
+#wb-layout-main-inner-1 {
+	background-image: url('../images/layout3/content-background.gif');
+	background-repeat: repeat-y;
+	background-position: top left;
+	width: 756px;
+	padding: 0 12px;
+	}
