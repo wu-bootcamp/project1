@@ -1,0 +1,90 @@
+/* .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15%, 1fr));
+  margin: 5% 20%;
+}
+.grid-item a img {
+  animation-timing-function: ease-in;
+  animation-duration: 15s;
+} */
+
+#video {
+  margin: 5% auto;
+  padding: auto;
+}
+.despicable {
+  width: 80%;
+  margin: 0 10%;
+}
+
+/* hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+} */
+
+#slideholder {
+  margin: 10% 15%;
+}
+
+#midteensCarousel {
+  position: relative;
+  width: 80%;
+  padding: 0.4em;
+}
+
+.carousel-inner > .carousel-item > img {
+  margin: 0 auto;
+}
+
+/* .carousel-item img {
+  width: 60%;
+  justify-content: center;
+} */
+
+/* .carousel-inner {
+  display: flex;
+  justify-content: center;
+} */
+/* .carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.carousel-item img {
+  image-orientation: none;
+}
+
+.slideThumbnail {
+  image-orientation: none;
+}
+/* .row:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+.column {
+  float: left;
+  width: 15%;
+}
+
+.slideThumbnail {
+  width: 100%;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.active,
+.slideThumbnail:hover {
+  opacity: 1;
+}
+
+.carousel-item {
+  padding: 50px;
+}
